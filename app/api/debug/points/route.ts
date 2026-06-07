@@ -94,7 +94,14 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Debug endpoint disabled in production" }, { status: 403 })
   }
 
-  const { email, action } = await req.json()
+  let email: string, action: string
+  try {
+    const body = await req.json()
+    email = body.email
+    action = body.action
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON payload" }, { status: 400 })
+  }
 
   if (!email) {
     return NextResponse.json({ error: "Email required" }, { status: 400 })
