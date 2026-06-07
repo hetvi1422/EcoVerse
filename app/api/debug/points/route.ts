@@ -94,7 +94,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Debug endpoint disabled in production" }, { status: 403 })
   }
 
-  let email: string, action: string
+  let email: unknown, action: unknown
   try {
     const body = await req.json()
     email = body.email
