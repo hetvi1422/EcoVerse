@@ -108,8 +108,11 @@ export async function POST(req: Request) {
   }
 
   if (typeof email !== 'string') {
-    return NextResponse.json({ error: "Invalid input type" }, { status: 400 })
-  }
+  return NextResponse.json({ error: "Invalid input type" }, { status: 400 })
+}
+if (typeof action !== 'string') {
+  return NextResponse.json({ error: "Invalid action type" }, { status: 400 })
+}
 
   try {
     await dbConnect()
