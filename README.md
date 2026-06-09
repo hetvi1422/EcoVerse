@@ -1,6 +1,9 @@
 # EcoVerse
 
-
+<p align="center">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  <img src="https://img.shields.io/badge/GSSoC-2026-orange" alt="GSSoC 26" />
+</p>
 
 <p align="center">
   EcoVerse helps users understand the environmental impact of products through barcode scanning, carbon footprint analysis, recyclability insights, eco-points, and community driven sustainability challenges.
@@ -10,7 +13,6 @@
 
 * [Overview](#overview)
 * [Features](#features)
-
   * [Barcode Scanning](#barcode-scanning)
   * [Carbon Footprint Analysis](#carbon-footprint-analysis)
   * [Recyclability Insights](#recyclability-insights)
@@ -19,14 +21,12 @@
   * [Analytics Dashboard](#analytics-dashboard)
 * [Tech Stack](#tech-stack)
 * [Architecture Overview](#architecture-overview)
-
   * [Application Flow](#application-flow)
   * [Core Components](#core-components)
 * [Project Structure](#project-structure)
 * [Application Routes](#application-routes)
 * [API Endpoints](#api-endpoints)
 * [Getting Started](#getting-started)
-
   * [Prerequisites](#prerequisites)
   * [Clone the Repository](#clone-the-repository)
   * [Install Dependencies](#install-dependencies)
@@ -145,6 +145,7 @@ The Rewards Engine encourages sustainable behavior through points, achievements,
 ---
 
 ## Project Structure
+
 ```text
 EcoVerse/
 │
@@ -374,7 +375,7 @@ For a detailed breakdown of the entire project structure, API routes, database s
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Shiv24angi/EcoVerse.git
+git clone [https://github.com/Shiv24angi/EcoVerse.git](https://github.com/Shiv24angi/EcoVerse.git)
 
 cd EcoVerse
 ```
@@ -403,7 +404,7 @@ NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
 NEXT_PUBLIC_FIREBASE_APP_ID=
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
-
+```
 # MongoDB
 MONGODB_URI=
 
@@ -412,6 +413,7 @@ JWT_SECRET=
 
 # Gemini AI
 GEMINI_API_KEY=
+```
 
 ### Start Development Server
 
@@ -426,7 +428,6 @@ http://localhost:3000
 ```
 
 ---
-
 
 ## Contributors
 
