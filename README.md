@@ -1,5 +1,8 @@
 # EcoVerse
 
+## 📺 Application Demo
+
+<img width="800" height="435" alt="EcoVerse Demo" src="./public/demo.gif" />
 
 
 <p align="center">
@@ -283,6 +286,7 @@ EcoVerse/
 │   └── globals.css                        # Additional global styles
 │
 ├── 📁 public/                             # Static assets (served at root)
+│   ├── demo.gif                           # Application demo gif
 │   ├── logo.png                           # App logo
 │   ├── barcode-data.json                  # Static barcode reference data
 │   ├── 📁 avatars/                        # User avatar image assets
